@@ -1,0 +1,42 @@
+nes (40 sloc)  547 Bytes
+
+Article{
+   code=1
+   price=12121.2$
+}
+Article{
+   code=4
+   price=1000.0$
+}
+Article{
+   code=5
+   price=199.0$
+}
+Article{
+   code=8
+   price=399.99$
+}
+ArticleEnSolde{
+   code=3
+   price=300.0$
+   priceArticleEnSolde=105.0$
+   remise=65.0%
+}
+ArticleEnSolde{
+   code=6
+   price=589.99$
+   priceArticleEnSolde=294.995$
+   remise=50.0%
+}
+ArticleEnSolde{
+   code=7
+   price=99.99$
+   priceArticleEnSolde=90.000999$
+   remise=9.99%
+}
+ArticleEnSolde{
+   code=9
+   price=100.0$
+   priceArticleEnSolde= 95.0% Is Invalid, 0%<=remise<=90%
+   remise=95.0%
+}
